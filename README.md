@@ -13,7 +13,7 @@ The purpose of this script is to streamline the cleaning process for Flutter pro
 1. Navigates to the specified directory (`StudioProject` in this case), where the projects are stored.
 2. Iterates through each subdirectory.
 3. Checks for the existence of a `pubspec.yaml` file within each directory.
-4. Executes `flutterb clean` in directories where a `pubspec.yaml` file is found, initiating the cleaning process.
+4. Executes `flutter clean` in directories where a `pubspec.yaml` file is found, initiating the cleaning process.
 5. Skips directories without a `pubspec.yaml` file.
 
 ## Usage
